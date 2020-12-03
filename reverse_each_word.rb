@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
   arr.join(" ")
 
   sentence.split.collect{|word| word.reverse}.join(" ")
-    
+
 end
