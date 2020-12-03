@@ -1,4 +1,4 @@
-def reverse_each_word(sentence1, sentence2)
+def reverse_each_word(sentence)
   arr = []
   sentence1.split.each{|word| arr << word.reverse}
   arr.join(" ")
